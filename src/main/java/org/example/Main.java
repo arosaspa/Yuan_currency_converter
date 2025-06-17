@@ -11,7 +11,7 @@ public class Main {
         System.out.println(message);
 
         String list = "--------------------------------------" +
-                "\n* Please select an option: *" +
+                      "\n* Please select an option: *" +
                       "\n* 1. Convert dollar $ to ¥ Yuan " +
                       "\n* 2. Convert Euro E to ¥ Yuan" +
                       "\n* 3. Bitcoin B to ¥ Yuan" +
