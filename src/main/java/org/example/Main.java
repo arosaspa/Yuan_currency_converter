@@ -10,13 +10,13 @@ public class Main {
                          "\n**************************************";
         System.out.println(message);
 
-        String list = "--------------------------------------" +
-                      "\n* Please select an option: *" +
-                      "\n* 1. Convert dollar $ to ¥ Yuan " +
-                      "\n* 2. Convert Euro E to ¥ Yuan" +
-                      "\n* 3. Bitcoin B to ¥ Yuan" +
-                      "\n* 3. Exit" +
-                      "\n -------------------------------------";
+        String list =    "--------------------------------------" +
+                         "\n* Please select an option: *" +
+                         "\n* 1. Convert dollar $ to ¥ Yuan " +
+                         "\n* 2. Convert Euro E to ¥ Yuan" +
+                         "\n* 3. Bitcoin B to ¥ Yuan" +
+                         "\n* 3. Exit" +
+                      "\n --------------------------------------";
 
 
         System.out.println(list);
