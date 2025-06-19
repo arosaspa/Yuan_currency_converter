@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+public class Main extends Welcome {
+    public static void main (String[] args) {
+
+
+        System.out.println("Intro the currency you want to convert to Yuan ¥: ");
+        Scanner money = new Scanner(System.in);
+        String currency = money.nextLine().toUpperCase();
+
+
+        String url = "https://v6.exchangerate-api.com/v6/60737150a15a670ba4a0750d/latest/USD" + currency;
+
+
+        System.out.println("How much " + currency + " do you want to convert to Yuan ¥: ");
+        Scanner amountScanner = new Scanner(System.in);
+        double amountToConvert = amountScanner.nextDouble();
+
+        double calc = amountToConvert * Double.parseDouble(currency);
+
+        System.out.println("The " + currency + " you entered is: " + calc);
+       // HttpURLConnection request = (HttpURLConnection) url.openConnection();
+       // request.connect();
+
+
+        // check the web:  https://www.exchangerate-api.com/docs/java-currency-api
+
+
+
+
+
+
+    }
+}
+
